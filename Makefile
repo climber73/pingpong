@@ -1,2 +1,2 @@
 regenerate:
-	protoc --proto_path=$(go env GOPATH)/src --proto_path . --go_out=plugins=grpc:. types.proto
+	protoc --proto_path=$(GOPATH)/src --proto_path . --go_out=plugins=grpc:. types/types.proto
